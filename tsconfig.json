@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@tv/ui": ["packages/tv/src/*"]
+    },
+    "types": ["node"]
+  },
+  "include": ["packages/*", "apps/*"]
+}
