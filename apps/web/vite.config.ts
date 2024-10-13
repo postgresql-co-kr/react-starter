@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import path from "path"; // Node.js 내장 모듈
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -13,5 +14,4 @@ export default defineConfig({
   optimizeDeps: {
     include: ["@tv/ui"], // HMR을 지원하기 위해 명시적으로 포함
   },
-  root: "apps/web", // 앱 디렉토리를 루트로 설정 (선택사항)
 });
